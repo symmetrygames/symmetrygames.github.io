@@ -1,0 +1,74 @@
+html,
+body{
+    height: 100%;
+}
+body{
+    
+    text-rendering: optimizeLegibility;
+    color: black;
+    
+}
+hgroup {
+    color: #333;
+}
+h6{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+img{
+    max-width: 100%;
+}
+.blockquote{
+    font-size: 1.6rem;
+    color: #333;
+    border: none;
+    padding: 0;
+}
+
+.blockquote-footer{
+    margin: 1rem 0 0;
+}
+#stage{
+    background: white center center no-repeat;
+    background-size: cover;
+    color: gray;
+    text-shadow: 1px 1px black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#stage-caption{
+    font-size: 1.4rem;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+#stage-caption h1{
+    color: grey;
+    text-shadow: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.feature-content{
+    padding: 2rem 0;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.feature-content h1{
+    padding: 2rem 0;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    font-size: 85px;
+}
+.feature-dark{
+    background: rgb(1, 1, 58);
+    color: white;
+
+}

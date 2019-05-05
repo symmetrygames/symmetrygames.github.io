@@ -31,7 +31,7 @@ img{
     margin: 1rem 0 0;
 }
 #stage{
-    background: url(/Images/Danfo\ Background.PNG) center center no-repeat;
+    background: black center center no-repeat;
     background-size: cover;
     color: gray;
     text-shadow: 1px 1px black;

@@ -2,6 +2,7 @@ html,
 body{
     height: 100%;
 }
+
 body{
     
     text-rendering: optimizeLegibility;
@@ -31,7 +32,7 @@ img{
     margin: 1rem 0 0;
 }
 #stage{
-    background: black center center no-repeat;
+    background: snow center center no-repeat;
     background-size: cover;
     color: gray;
     text-shadow: 1px 1px black;
@@ -56,38 +57,19 @@ img{
 .feature-content{
     padding: 2rem 0;
     justify-content: center;
-    align-content: center;
-    text-align: center;
     overflow: hidden;
-    font-family: 'Amatic SC', cursive;
-}
-.feature-content h1{
-    
-    font-size: 85px;
-}
- 
-.feature-content h3{
-    
-    font-size: 40px;
-}
-.feature-content img{
-    margin-bottom: -2rem;
 }
 .feature-dark{
-    background: black;
+    background: #262f36;
     color: white;
 
-}
-.feature-light{
-    background: rgb(228, 221, 221);
-    color: black
 }
 .feature-dark h2{
     color: white;
 }
 #main-footer{
-    background: whitesmoke;
-    color: black;
+    background: black;
+    color: white;
     padding: 2rem 0;
     font-size: 0.8rem;
 }
@@ -97,10 +79,11 @@ img{
 #main-footer a{
     color: #6c6f73;
 }
-
-@media screen and ( min-width : 991px ){
-    .feature-content{
-        display:flex;
-        align-items: center;
-    }
-}
+.typedtext {
+    font-family: 'Waiting for the Sunrise', cursive; 
+    font-size:30px; 
+    color: black;
+    margin: 10px 50px; 
+    letter-spacing: 6px; 
+    font-weight: bold;
+  }

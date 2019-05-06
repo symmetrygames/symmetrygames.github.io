@@ -66,3 +66,23 @@ img{
 .feature-dark h2{
     color: white;
 }
+#main-footer{
+    background: black;
+    color: white;
+    padding: 2rem 0;
+    font-size: 0.8rem;
+}
+#main-footer h6{
+    color: #718fa9;
+}
+#main-footer a{
+    color: #6c6f73;
+}
+.typedtext {
+    font-family: 'Waiting for the Sunrise', cursive; 
+    font-size:30px; 
+    color: black;
+    margin: 10px 50px; 
+    letter-spacing: 6px; 
+    font-weight: bold;
+  }

@@ -97,10 +97,18 @@ img{
 #main-footer a{
     color: #6c6f73;
 }
+#AppStorebadge{
+    max-width: 100%;
+    height: auto;
+}
+#GoogleStorebadge{
+    max-width: 100%;
+    height: auto;
+}
 
 @media screen and ( min-width : 991px ){
     .feature-content{
-        display:flex;
+        display: flex;
         align-items: center;
     }
 }
